@@ -1,0 +1,84 @@
+<!-- TODO: replace brand name, phone, and email with real business details -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us | Free Popcorn Ceiling Removal Estimates in Dallas, TX</title>
+<meta name="description" content="Contact Dallas Popcorn Ceiling Pros for a free popcorn ceiling removal estimate in Dallas–Fort Worth. Call, email, or send the estimate form.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<nav class="site-nav" aria-label="Main navigation"><div class="wrap nav-inner"><a class="brand" href="index.html">Dallas Popcorn Ceiling Pros</a><div class="nav-links"><a href="index.html">Home</a><a href="about.html">About Us</a><a href="contact.html" aria-current="page">Contact Us</a><a class="btn btn-primary btn-sm" href="contact.html">Free Estimate</a></div></div></nav>
+
+<main id="main">
+<div class="wrap">
+<section class="page-hero">
+<div class="kicker">Contact us</div>
+<h1>Get a Free Popcorn Ceiling Removal Estimate in Dallas</h1>
+<p class="lede">Call, email, or send the form below — tell us about your ceilings and we'll respond within one business day.</p>
+</section>
+<section class="page-content">
+
+<div class="contact-grid">
+<div class="nap-card">
+<h2>Reach us directly</h2>
+<div class="nap-row"><strong>Phone</strong><!-- TODO: replace with real phone number --><a href="tel:+12145550134">(214) 555-0134</a></div>
+<div class="nap-row"><strong>Email</strong><!-- TODO: replace with real email --><a href="mailto:hello@dallaspopcornceilingpros.com">hello@dallaspopcornceilingpros.com</a></div>
+<div class="nap-row"><strong>Hours</strong>Mon–Sat, 8:00 AM – 6:00 PM</div>
+<div class="nap-row"><strong>Service area</strong>Dallas–Fort Worth, TX</div>
+<p class="form-note">Prefer to talk? Call during business hours for the fastest response — most estimate requests get a reply within one business day.</p>
+</div>
+<div class="form-card">
+<h2>Request your free estimate</h2>
+<form id="quote-form">
+<div class="form-field"><label for="f-name">Name</label><input id="f-name" name="name" required autocomplete="name"></div>
+<div class="form-field"><label for="f-phone">Phone</label><input id="f-phone" name="phone" type="tel" required autocomplete="tel"></div>
+<div class="form-field"><label for="f-email">Email</label><input id="f-email" name="email" type="email" autocomplete="email"></div>
+<div class="form-field"><label for="f-city">City</label><select id="f-city" name="city"><option>Dallas</option>
+<option>Plano</option>
+<option>Richardson</option>
+<option>Garland</option>
+<option>Irving</option>
+<option>Carrollton</option>
+<option>Addison</option>
+<option>University Park</option>
+<option>Highland Park</option>
+<option>Farmers Branch</option>
+<option>Fort Worth</option>
+<option>Arlington</option>
+<option>Frisco</option>
+<option>Mesquite</option>
+<option>McKinney</option>
+<option>Allen</option>
+<option>Grand Prairie</option>
+<option>Denton</option>
+<option>Lewisville</option>
+<option>Rowlett</option>
+<option>Other / not listed</option></select></div>
+<div class="form-field"><label for="f-msg">Project details</label><textarea id="f-msg" name="message" rows="4" placeholder="e.g. 3 bedrooms + living room, popcorn texture, home built in 1975"></textarea></div>
+<button class="btn btn-primary" type="submit">Send estimate request</button>
+<p class="form-note">Submitting opens your email app with the request pre-filled. For instant online booking, ask us about connecting a form service — we can wire one up on request.</p>
+</form>
+</div>
+</div>
+<script>
+document.getElementById('quote-form').addEventListener('submit', function(e){
+  e.preventDefault();
+  var f = e.target;
+  var subject = encodeURIComponent('Free estimate request — ' + f.city.value + ', TX');
+  var body = encodeURIComponent('Name: ' + f.name.value + '\nPhone: ' + f.phone.value + '\nEmail: ' + f.email.value + '\nCity: ' + f.city.value + '\n\nProject details:\n' + f.message.value);
+  window.location.href = 'mailto:hello@dallaspopcornceilingpros.com?subject=' + subject + '&body=' + body;
+});
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"HomeAndConstructionBusiness","name":"Dallas Popcorn Ceiling Pros","telephone":"(214) 555-0134","email":"hello@dallaspopcornceilingpros.com","address":{"@type":"PostalAddress","addressLocality":"Dallas","addressRegion":"TX","addressCountry":"US"},"openingHours":"Mo-Sa 08:00-18:00","priceRange":"$$","areaServed":["Dallas","Plano","Richardson","Garland","Irving","Fort Worth","Arlington","Frisco"]}
+</script>
+
+</section>
+</div>
+</main>
+<footer><div class="wrap footer-grid"><div><strong>Dallas Popcorn Ceiling Pros</strong><br><span>Popcorn ceiling removal planning guide for Dallas, Texas.</span></div><div class="footer-links"><a href="index.html">Home</a><a href="about.html">About Us</a><a href="contact.html">Contact Us</a><a href="privacy.html">Privacy Policy</a></div><div><span>Project photo source: <a href="https://cdmjax.com/services/" target="_blank" rel="noopener noreferrer">Construction &amp; Demolition Management</a></span><br><span>&copy; 2026 Dallas Popcorn Ceiling Pros. All rights reserved.</span></div></div></footer>
+</body>
+</html>
